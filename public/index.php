@@ -43,10 +43,11 @@ if ($_POST) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <form action="" method="post">
+    <form action="" method="post" class="mt-5">
         <input type="text" placeholder="первое число" name="a">
         <label for="znak">Выберите знак:</label>
         <select id="znak" name="znak">
